@@ -20,7 +20,7 @@ import { AdminProduct } from "./admin/pages/product/AdminProduct";
 
 // lazy load
 const AuthLayout = lazy(() => import('./auth/layouts/AuthLayout'))
-const AdminLayout = lazy(() => import('./admin/layouts/AdminLayout'))
+const AdminLayout = lazy(() => import('./admin/layouts/AdminLayout'));
 
 export const appRouter = createBrowserRouter([
     // Main Routes
